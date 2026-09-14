@@ -1,15 +1,15 @@
 {
-  "version": "0.3.4",
-  "notes": "Launching the app while it is already running now reliably brings the window you already have to the front.\n\n### Fixed\nStarting the app while it was already running in the background could open a fresh copy behind the startup toast instead of showing the window you already had. It now brings the running app to the front, the same as clicking the tray icon or the taskbar.",
-  "pub_date": "2026-09-07T18:31:49Z",
+  "version": "0.3.5",
+  "notes": "This release adds bulk copy from selection mode and rounds out the paste popup with a keep-open option, an in-app guide, and clearer previews.\n\n### New\n- Copy several clips at once. In selection mode a new Copy action puts every selected entry on the clipboard together: text entries join into one block, and files or images copy as a group. If you mix text with files or images, Copy turns off and tells you which kinds clash.\n- Choose whether the paste popup stays open after you copy. A new setting, \"Keep paste popup open after copying,\" leaves the popup up so you can grab another clip; pasting still closes it. It is on by default.\n- A quick guide in the paste popup. A \"?\" in the header lists how to paste, use the number keys, and reach the per-row pin, copy, and delete actions.\n\n### Improved\n- The paste popup preview now shows the full file or image name instead of cutting it off.\n- The paste popup fits all ten number-keyed rows without scrolling, and the preview panel slides in when you open it.\n\n### Fixed\n- The close button in the paste popup is no longer clipped at the window edge.",
+  "pub_date": "2026-09-14T17:50:36Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUwxTUE0cmZLZHd0M3owQmp0NFNtdm5sc3kzY3l5eUJ4MGpjS3VRYU1FUCtaOWJHbzJzYzU3VTNNQ2FsT3IySG42cTdPK2FsaXJFeGNwTzYzb2RqMkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODA1ODg5CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjRfeDY0LXNldHVwLmV4ZQptMVN6dWVnNFZrQWx4K2Y5cURWVzB1WEJTaXRRWmFxMFpiTVFscXREN05vMzdOTGFFeDFhOUZYWUlWTVFsU1ZJSkt6M0NEUW85MWpSTGZVS2I3VmRBZz09Cg==",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.3.4/RoverTools_0.3.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTURNa092N25IRzVUblJCU254RGdZdEhUdUd0b2tOL0s0eXpsTHdhVW4vU3BKSXBpbGNoZ2hwSUN5VVFPclhxRTFhVlVxdFUyZWx5VEgxNGNXVmdvU0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDA4MjIyCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjVfeDY0LXNldHVwLmV4ZQpZVzF4UU9wNE9ZZkJsUjJJRVZHY0toZVVMaG5wU1Y3U01jSVpMSkN1ckJ1YUVaamF0ME1sblZVTUpSYXE4K09tSm0wa0NSWFo2cURFcmEvZDNpVjdEZz09Cg==",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.3.5/RoverTools_0.3.5_x64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTURGRENTaTFjb1RXUDdvSTBuZFpqaDR0VVE2UmpVcThwclJtVlZsVy92azIxYXAvWmNPUVlTYUFFcHVQOG1aRzBPYzQ2d2djUHd3QjkyV2Urb0RTY0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODA1Nzc2CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjRfYW1kNjQuQXBwSW1hZ2UKQ0xnUTNka3dVbEs0Zy9DOUdnckpiQXFLbVAxM3NKdG8zazQrUktwMm1pdnJDdWJiaW15NlRPNStjWVdmTDdUREFvU1Y0U3hiNXhSRG5FMFpSb1hTREE9PQo=",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.3.4/RoverTools_0.3.4_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUwxRTdMdDZvZlpscDdxdVZLbkNCRnBlQmFEZ1VTOVhpTVQrdU5oZ2J5LzVyYmNiYnZqTm9Fby9sUmxwbjVWOTF4aThyQldWdnBRR21mSnp6cUxTV2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDA4MTYzCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjVfYW1kNjQuQXBwSW1hZ2UKOTEzeERpNHE3V1pXaEd2UWVxUHpRUVFPZjlKT2R6RmxjNTNQcTZ1RC9xekxSNTdWNnQ4VUlmRTRMdjZYS1V5VEwyeTNZaG5nOGw2TmNFNmlPamhuQXc9PQo=",
+      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.3.5/RoverTools_0.3.5_amd64.AppImage"
     }
   }
 }
