@@ -11,6 +11,14 @@ Two channels: **stable** reaches everyone, **beta** reaches only installs opted 
 ## Beta
 
 <details>
+<summary><strong>v0.3.6</strong> (patch) - 2026-09-15</summary>
+
+### Fixed
+- Copying several history entries at once now confirms it worked with a short message, and tells you when a selection could not be copied instead of looking like nothing happened.
+
+</details>
+
+<details>
 <summary><strong>v0.3.5</strong> (patch) - 2026-09-14</summary>
 
 This release adds bulk copy from selection mode and rounds out the paste popup with a keep-open option, an in-app guide, and clearer previews.
