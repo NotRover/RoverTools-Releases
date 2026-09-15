@@ -1,15 +1,15 @@
 {
-  "version": "0.3.5",
-  "notes": "This release adds bulk copy from selection mode and rounds out the paste popup with a keep-open option, an in-app guide, and clearer previews.\n\n### New\n- Copy several clips at once. In selection mode a new Copy action puts every selected entry on the clipboard together: text entries join into one block, and files or images copy as a group. If you mix text with files or images, Copy turns off and tells you which kinds clash.\n- Choose whether the paste popup stays open after you copy. A new setting, \"Keep paste popup open after copying,\" leaves the popup up so you can grab another clip; pasting still closes it. It is on by default.\n- A quick guide in the paste popup. A \"?\" in the header lists how to paste, use the number keys, and reach the per-row pin, copy, and delete actions.\n\n### Improved\n- The paste popup preview now shows the full file or image name instead of cutting it off.\n- The paste popup fits all ten number-keyed rows without scrolling, and the preview panel slides in when you open it.\n\n### Fixed\n- The close button in the paste popup is no longer clipped at the window edge.",
-  "pub_date": "2026-09-14T17:50:36Z",
+  "version": "0.3.6",
+  "notes": "### Fixed\n- Copying several history entries at once now confirms it worked with a short message, and tells you when a selection could not be copied instead of looking like nothing happened.",
+  "pub_date": "2026-09-15T20:02:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTURNa092N25IRzVUblJCU254RGdZdEhUdUd0b2tOL0s0eXpsTHdhVW4vU3BKSXBpbGNoZ2hwSUN5VVFPclhxRTFhVlVxdFUyZWx5VEgxNGNXVmdvU0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDA4MjIyCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjVfeDY0LXNldHVwLmV4ZQpZVzF4UU9wNE9ZZkJsUjJJRVZHY0toZVVMaG5wU1Y3U01jSVpMSkN1ckJ1YUVaamF0ME1sblZVTUpSYXE4K09tSm0wa0NSWFo2cURFcmEvZDNpVjdEZz09Cg==",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.3.5/RoverTools_0.3.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUVuWm1ZNUVRRnVIcGkrZUxTMlFJdldQRThDb0NuZVYyQTRKRlR5S05QMzY3WGt4WUthanpjckc0Ri9xYXQ2bDV4RXFMd1VMc2U4Yk1vamhQZGhyaXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTAyMzI1CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjZfeDY0LXNldHVwLmV4ZQpxNmsxTVUrTjE3Nm5hakNEdVlvR1ZYeHRpd0J5aVlIZlJQcDlGRWovWFVycmQrMjk3UWRiS0RQYWZJN2dWTllQYlVZYVRTcTcwUWZyV3p4ZmRZS05DZz09Cg==",
+      "url": "https://github.com/NotRover/RoverTools-Releases/releases/download/v0.3.6/RoverTools_0.3.6_x64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUwxRTdMdDZvZlpscDdxdVZLbkNCRnBlQmFEZ1VTOVhpTVQrdU5oZ2J5LzVyYmNiYnZqTm9Fby9sUmxwbjVWOTF4aThyQldWdnBRR21mSnp6cUxTV2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDA4MTYzCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjVfYW1kNjQuQXBwSW1hZ2UKOTEzeERpNHE3V1pXaEd2UWVxUHpRUVFPZjlKT2R6RmxjNTNQcTZ1RC9xekxSNTdWNnQ4VUlmRTRMdjZYS1V5VEwyeTNZaG5nOGw2TmNFNmlPamhuQXc9PQo=",
-      "url": "https://github.com/Spectrewolf8/RoverTools-Releases/releases/download/v0.3.5/RoverTools_0.3.5_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUVsR0NjWjlpLzUyRk9JbWYxdEtYRWV2Y0RlS1JiUzJTR2t4ZHF3TVdzQkozNHRBWUdHdlBuQTQ3M1I4ZklwWFo0NGZicVQ2Y2diWFZwb1VjQ01SeWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTAyMTUxCWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjZfYW1kNjQuQXBwSW1hZ2UKY1FtendCWHNGcm9ZZVA3MndUazl6eFgxVzhFRGtONzV2SjlKWUhUZnBjU1VUc0RzSmxhbzhCdGFibDlYMTNlSFVyV1ZwL0JhdEoyTkNZb0FOU1pqQ3c9PQo=",
+      "url": "https://github.com/NotRover/RoverTools-Releases/releases/download/v0.3.6/RoverTools_0.3.6_amd64.AppImage"
     }
   }
 }
