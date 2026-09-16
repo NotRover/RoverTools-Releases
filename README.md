@@ -14,7 +14,7 @@ Two channels: **stable** reaches everyone, **beta** reaches only installs opted 
 <summary><strong>v0.3.7</strong> (patch) - 2026-09-16</summary>
 
 ### Improved
-- Account sync now connects through the app's own home at rovertools.ctx.cl. Existing sign-ins keep working; nothing to do on your end.
+- Account sync now runs on its own dedicated address. Existing sign-ins keep working; just update the app.
 
 </details>
 
