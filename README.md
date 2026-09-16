@@ -2,7 +2,7 @@
 
 Public release feed for the RoverTools Smart Clipboard desktop app - signed bundles and update manifests only, no source. Every release and its notes are below; the full per-release files live in [`changelog/`](changelog/).
 
-Site and documentation: [rovertools.ctx.cl](https://rovertools.ctx.cl) - what the app does, how to install it, and how each screen works.
+Site and documentation: [orange-copy-paste-app.pages.dev](https://orange-copy-paste-app.pages.dev) - what the app does, how to install it, and how each screen works.
 
 Two channels: **stable** reaches everyone, **beta** reaches only installs opted into beta versions (Settings, Updates, Get beta versions). A release stays in its group until it is promoted.
 
