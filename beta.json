@@ -1,14 +1,14 @@
 {
   "version": "0.3.7",
-  "notes": "### Improved\n- Account sync now connects through the app's own home at rovertools.ctx.cl. Existing sign-ins keep working; nothing to do on your end.",
-  "pub_date": "2026-09-16T19:21:27Z",
+  "notes": "### Improved\n- Account sync now runs on its own dedicated address. Existing sign-ins keep working; just update the app.",
+  "pub_date": "2026-09-16T19:50:29Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUlia1NHditUNU90ZllHaElkWUpIYi85clF4T1o4Y3BHRmM5V1VGSXo1d29tTVNQbHZ2QTNscitQZStNY0l5QW5yYWdzK1NTc3JLd3ppcEtJc1IyVWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg2MzI3CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjdfeDY0LXNldHVwLmV4ZQpuM3lkWnI2YWZzSFJLTG5QUjFFdnMzUllYbHIvakUwZFh1WGhOWVprT3I4TTN0V3RERHJybXZEUUYycjZlV3pFSzdvYllrV3dhUno3TDJ0NHBWa0tCUT09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUNJYVhiMk9KWkFvMktEbVRXbFE4K2I5VjBtczdHdnNoN1ZWTVJVbnI5eVlJSnRlVFVtMlhGbUFBMmRTQURMR3lGT3MyLzk5WGoxTXMvVVJobjFTL2cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg4MjE1CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjdfeDY0LXNldHVwLmV4ZQpjRWRnNmxLWjZYcHZmSGwzMFNEVlh5R2FtSG91SVRnZExFcGlNcFFWRTFZRUt3ZmFYbDJzTUNPZjBCVFA5OS80RzA5SGI5Um9SUEpxWDhJWmxtRzJCdz09Cg==",
       "url": "https://github.com/NotRover/RoverTools-Releases/releases/download/v0.3.7/RoverTools_0.3.7_x64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTVBCemplOVdoTzZ2Z2VMU0NRT2dPYkJwNU93UVFBcmFWeWhBSlFjN0lSRUlselZQQVlFanpoTTV4c2dNWmpOOFB2aHJiUDZWZFhmalRkbDdFTEpjNXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg2NDY4CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjdfYW1kNjQuQXBwSW1hZ2UKKzRySS9MeWVDTnUyTHVNRmN2VFZMSmhqeWhjL09wd24vZlZkK3BoVGhBMUw3NlArTzAvTkMxVjJFK0w3eURNSEF0S1duTk13ek9WVnczcVpnS1g1QlE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcVpIT282TGRZTUg5Zk1wSUM3SklVeVI5SEV3K1Z6RGwrcW5qWG1tOUNQWGVVSG9FNHUxT0ZvVlFJTWN2V29FWmxkUHllWi9iM0xkK3lRV1RsQU5ibnp6bkRRelhLSFE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTg4MDY1CWZpbGU6T3JhbmdlIENvcHkgUGFzdGVfMC4zLjdfYW1kNjQuQXBwSW1hZ2UKaUt4bzcyZ1NWUFdhMWFVMlVqL21IVktpc0JKWWtQUnZidTU2TjEwaWxtdzcyc05GU0NxQXBack5FWlBzZUVxeGdDTlByeG94dks2NkVWMHhoZlJuQnc9PQo=",
       "url": "https://github.com/NotRover/RoverTools-Releases/releases/download/v0.3.7/RoverTools_0.3.7_amd64.AppImage"
     }
   }
